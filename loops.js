@@ -9,7 +9,9 @@ function forLoop(array) {
   return array;
 }
 
-
+function whileLoop(number) {
+  
+}
 
 var i = 0;
 

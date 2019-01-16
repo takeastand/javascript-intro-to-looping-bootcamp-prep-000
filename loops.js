@@ -1,8 +1,15 @@
-function forLoop() {
-for (let i = 1; i < 25; i++) {
-  console.log("I am ${i} strange loop")
+function forLoop(array) {
+  for (let i = 0; i < 25; i++) {
+    if (i === 1) {
+      array.push("I am " + i + " strange loop.")
+    } else {
+    array.push("I am " + i + " strange loops.");
+    }
+  }
+  return array;
 }
-}
+
+
 
 var i = 0;
 
